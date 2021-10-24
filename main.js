@@ -17,9 +17,6 @@ const linksSocialMedia = {  /* nome do objeto */
          
       }
   }
-  
-  
-
     //ser humano le 1234678910
     //PC le 0123456789*
    // i = i + 1
