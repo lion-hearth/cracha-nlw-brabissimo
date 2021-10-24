@@ -18,9 +18,26 @@ body {
   font-family: "Roboto", monospace;
 }
 main {
-  background: url(./images/background.svg);
-  width: 375px;
-  height: 812px;
+  background: url(./images/background-mobile.svg) no-repeat center/cover;
+  background-color: #8257E5
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
+}
+
+@media  (min-width: 768px) {
+	/* estilos versão tablet */
+}
+
+@media only screen and (min-width: 960px) {
+	main {
+    background: url(./images/background-desktop.svg) no-repeat center/cover;
+    width: 25rem;
+    height: 80vh;
+    position: absolute;
+    top: -1rem;
+  }
+  
 }
 .avatar
 {
