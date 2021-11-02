@@ -22,7 +22,7 @@ body {
 }
 main {
   background: url(./images/background-mobile.svg) no-repeat center/cover;
-  background-color: #8257E5
+  background-color: #8257E5;
   width: 100vw;
   min-height: 812px;
   height: 100vh;
@@ -75,8 +75,7 @@ main {
   max-width: 250px;
   margin: 0 auto;
   text-align: center;
-  color:var(--white);
-  color: var(--white);
+  color: var(--grey);
 }
 
 h1 
