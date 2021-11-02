@@ -17,7 +17,7 @@ body {
   place-items: center; /*place items ajusta no eixo x e y ao mesmo tempo */
   font-family: "Roboto", monospace;
   background-image: url(./images/rain.jpg);
-  background-size: center/cover;
+  background-size: cover;
   background-repeat:no-repeat;
 }
 main {
