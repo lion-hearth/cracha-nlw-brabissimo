@@ -47,7 +47,7 @@ main {
     width: 10rem;
     margin: 11.5rem auto 0;
     position: relative;
-    top: 5.5rem
+    top: 5.5rem;
 }
 
 .avatar span
@@ -75,7 +75,7 @@ main {
   max-width: 250px;
   margin: 0 auto;
   text-align: center;
-  color: var(--grey);
+  color: var(--gray);
 }
 
 h1 
