@@ -16,7 +16,9 @@ body {
   display: grid; /* visualização dos elementos */
   place-items: center; /*place items ajusta no eixo x e y ao mesmo tempo */
   font-family: "Roboto", monospace;
-  background: url(./images/rain.jpg) no-repeat center/cover;
+  background-image: url(./images/rain.jpg);
+  background-size: center/cover;
+  background-repeat:no-repeat;
 }
 main {
   background: url(./images/background-mobile.svg) no-repeat center/cover;
